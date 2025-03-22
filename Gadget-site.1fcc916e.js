@@ -701,18 +701,18 @@ const templateFunction = (0, _handlebarsDefault.default).template({
                     "column": 43
                 }
             }
-        }) : helper)) + "</h2>\r\n        <p class=\"product__price\">" + alias4((helper = (helper = lookupProperty(helpers, "price") || (depth0 != null ? lookupProperty(depth0, "price") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
+        }) : helper)) + "</h2>\r\n        <p class=\"product__price\">$" + alias4((helper = (helper = lookupProperty(helpers, "price") || (depth0 != null ? lookupProperty(depth0, "price") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
             "name": "price",
             "hash": {},
             "data": data,
             "loc": {
                 "start": {
                     "line": 5,
-                    "column": 34
+                    "column": 35
                 },
                 "end": {
                     "line": 5,
-                    "column": 43
+                    "column": 44
                 }
             }
         }) : helper)) + "</p>\r\n        <p class=\"product__describtion\">" + alias4((helper = (helper = lookupProperty(helpers, "description") || (depth0 != null ? lookupProperty(depth0, "description") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
