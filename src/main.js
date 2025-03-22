@@ -1,1 +1,1 @@
-console.log("aaaaaaaaaa");
+import "./js/product"
